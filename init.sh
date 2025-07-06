@@ -17,7 +17,7 @@ BASE_URL="https://getindex.netlify.app/nginx"
 # 下载所有文件
 for file in "${FILES[@]}"; do
   echo "正在下载 $file ..."
-  wget -q --show-progress "${BASE_URL}/${file}" -O "$file"
+  wget -q "${BASE_URL}/${file}" -O "$file"
 done
 
 # 检查所有文件是否存在且非空
