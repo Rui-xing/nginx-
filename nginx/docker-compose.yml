@@ -5,6 +5,6 @@ services:
     ports:
       - "808:80"
     volumes:
-      - ./abc:/usr/share/nginx/html
+      - ./web:/usr/share/nginx/html
     user: root
     restart: unless-stopped
