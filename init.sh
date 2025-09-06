@@ -12,7 +12,7 @@ FILES=(
   "start.sh"
 )
 
-BASE_URL="https://getindex.netlify.app/nginx"
+BASE_URL="https://cdn.jsdelivr.net/gh/Rui-xing/nginx-@master/nginx/"
 
 # 下载所有文件
 for file in "${FILES[@]}"; do
